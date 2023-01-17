@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<!-- CV de David Starsky -->
+	<!-- Aïssa ABID  - Etudiant en Licence 1 IED Paris 8-->
+	<!-- Cours UOR (Utilisation d'Ordinateurs en Réseaux) -->
+	<!-- Exercice 2.1 et 2.2 - Chapitre 2 : HTML -->
+	<!-- Version - V0.1 -->
+	<!-- 14 juin 2022  -->
+    <head>
+        <title>Curriculum Vitae D.Starsky </title>
+        <!-- Métadonnées Meta  -->
+        <meta charset="utf-8" />
+		<meta name="description" content= "Curriculum vitae de David Stardsky. Cours IED UOR" />
+		<meta name="keywords" content="starsky,hutch,huggy,dobbey,série,télé">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="auteur" content="Aissa">
+		<meta name="copyright" content="Aissa" />
+		<meta name="robots" content= "noindex,nofollow">
+
+		<!-- Métadonnées JSON-LD  --> 
+		<!-- Sublime text Build 3126 (2006 - 2016) utilisait <script type="application/ld+json">  -->
+		<!-- maintenant c'est  <script type="text/javascript">  pour Sublime text Build 4121 (2006 - 2021) -->
+		<script type="application/ld+json"> 
+			{
+				"@context": "https://schema.org",
+				"@type": "Person",
+				"name":"David Starsky",
+				"url":"http://aissa-uor.atspace.eu",
+				"image":"http://aissa-uor.atspace.eu/images/davidstarsky_thumb.jpg",
+				"Description":"Curriculum vitae de David Stardsky. Cours IED UOR",
+				"Jobtitle": "Inspecteur de police",
+				"address":{
+					"@type":"PostalAddress"
+					"addressLocality":"Bay City"
+				},
+				"colleague":"Hutch, Capitaine Dobey, Huggy"
+			}
+		</script>
+    </head>
+    <body> 
+    	<!-- 3 balises div "presentation" vie-pro" et "reference" -->
+    	<!--  nom, en titre principal  -->
+    	<div class = "presentation">
+    	<h1 >David Starsky</h1> 
+    		<!--courte phrase de description -->
+ 			<p style="text-align:center" title = "Inspecteur de l'année">
+ 			Inspecteur de police, Je suis ancien boxeur et également pilote de course - Je vis à Bay City 
+		    </p>
+			<!-- Photo miniature, sur laquelle il faut cliquer pour avoir une version agrandie  -->
+			<p class = "starsky"><a href="images/davidstarsky.jpeg"><img src= "images/davidstarsky_thumb.jpg" 
+			   alt = "Photo de David Starsky" title="Photo CV de David Starsky !" ></a></p>
+		</div>
+ 		<!-- balise div  "vie-pro" délimitées par des titres différents : 
+ 		     Mon expérience, Mes compétences, Ma formation -->
+ 		<div class = "vie-pro">  
+ 		<h2>Expérience professionnelle</h2>
+			<ul>
+				<li><strong>De 1973 à 1975</strong> : Pilote de course </li>
+				<li><strong>De 1976 à 1977</strong>: Boxeur professionnel WBA</li>
+				<li><strong>1978 à aujourd'hui</strong> : Inspecteur de police</li>
+		 	</ul>
+		<hr style="width:70% ; margin-left:0">
+		<h2>Compétences professionnelles</h2>
+	 	 	<ul>
+				<li> Résolution d'enquêtes </li>
+				<li> Pilote formula drift </li>
+				<li> Fin connaisseur de la ville sans smartphone ni gps </li>
+				<li> Acteur à temps plein </li>		
+		 	</ul>
+		<hr style="width:70%; margin-left:0">
+		<h2>Formation</h2>
+		 	<ul>
+				<li>Ecole de police de Los Angeles </li>
+				<li> Baccalauréat - Tampa Bay </li>
+			</ul>
+		<hr style="width:70% ; margin-left:0">
+		</div>
+		<!-- balise div  "références " décrit 2 pages web et 3 personnes référentes de mon réseau pro -->
+		<div class="references">
+		<h2>Références</h2>
+			<p> Pour en savoir un peu plus sur moi : 
+				<a href="https://fr.wikipedia.org/wiki/Starsky_et_Hutch"> 
+				La série où j'ai joué mon propre rôle ! </a> ou bien sur ce site :
+				<a href="https://fr.wikipedia.org/wiki/Paul_Michael_Glaser"> 
+				un gars qui me ressemble un peu</a>
+			</p>
+			<p> N'hésitez pas à appeler mon chef, le captaine Dobey, il est toujours de bonne humeur :-) <br>
+				<a href="images/capitaine-dobbet.png"> <img src ="images/capitaine-dobbet-thumb.jpeg" 
+				   alt="Photo du Capitaine Dobbey" title = "Le super captaine Dobbey"></a> <br>
+				   Mon coéquipier Hutch durant le choc pétrolier. Y'a pas à dire, il sait s'adapter ! <br>
+				<a href="images/hutch.jpeg"> <img src ="images/hutch-thumb.jpeg" 
+				   alt="Photo de Kenneth Hutchinson" title = "Mon coéquipier Hutch"  width="150" height="150">
+				   </a> <br>
+				   Là c'est Huggy, toujours sur son 31 <br>
+				<a href="images/huggy.jpeg"> <img src ="images/huggy-thumb.jpeg" alt="Photo de Hyggy" 
+				   title = "Huggy les bons tuyaux " /></a>
+			 	<a href="http://www.antoniofargas.com/"> Il a même son site web ! </a>
+			</p>
+		</div>
+    </body>
+</html>
