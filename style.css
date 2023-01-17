@@ -1,0 +1,22 @@
+/*Feuille de style  CSS <link /> à décommenter et utiliser si le style de la page doit être lié 
+Effacer le style écrit directement sur la page html du site ci dessous --> 
+<!-- <link rel="stylesheet" type="text/css" href="style_uor.css" /> --> */
+
+
+/* couleur arrière-plan du body crème */
+/* Police sans empattement Helvetica pour le body */
+
+body {
+	background-color: #eeeeee; 
+	font-family: Helvetica;
+}
+/* couleur arrière-plan container */
+.container {
+	background-color: #f5f4ed;
+}
+/* propriétés menu  */
+.m {
+	width: 70%; 
+	float: left; 
+	height :100%;
+    }
